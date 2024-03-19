@@ -1,0 +1,47 @@
+
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card .card-title{
+    font-weight: bolder;
+    color: red;
+}
+
+.card .card-text{
+    font-weight: bold;
+}
+
+
+
+.cmp-name{
+    background-color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* color: #fdd1e3; */
+    color: #f4a7ba;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+   
+    height: fit-content; 
+    border-color: white;
+    transition-duration: 1s;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    /* transition: 1s; */
+    transition-duration: 1s;
+    /* border-color: #f4a7ba; */
+}
+.card
+.card-img-top {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
